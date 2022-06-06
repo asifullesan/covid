@@ -1,0 +1,29 @@
+.d-nav{
+    color: white;
+    font-weight: 700;
+}
+
+.tool{
+    background-color: #1E1E2E;
+    height: 89vh;
+}
+
+.d-bg{
+    background-color: #1E1E2E;
+}
+
+.nav-bg{
+    background-color: #237FF7;
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.li-d{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}

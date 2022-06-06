@@ -1,0 +1,46 @@
+.nav-option{
+    color: white !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 1.2rem;
+    text-align: left;
+}
+
+.nav-option:hover{
+    border-bottom: 1px solid rgba(0, 255, 255, 0.918);
+}
+
+.nav{
+    background-color: rgba(7, 34, 34, 0.498);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logOb{
+    background-color: rgba(161, 253, 253, 0.918);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+
+.logOb:hover{
+    background-color: rgba(0, 0, 0, 0.087);
+    color: rgba(161, 253, 253, 0.918);
+    border: 2px solid rgba(161, 253, 253, 0.918);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.logo{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.logosup{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -5px;
+    margin-left: 100px;
+}

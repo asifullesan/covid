@@ -1,0 +1,32 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../../../Image/banner-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px !important;
+}
+
+.banner-btn {
+    background-color: rgba(161, 253, 253, 0.429);
+    border: 1px solid rgba(161, 253, 253, 0.918);
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: Anton, sans-serif;
+    margin-top: 10rem;
+    padding: 1.2rem 3rem;
+}
+
+.banner-btn:hover {
+    background-color: #00000000;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 900;
+    font-family: Anton, sans-serif;
+    margin-top: 10rem;
+    padding: 1.2rem 3rem;
+}
+
+
