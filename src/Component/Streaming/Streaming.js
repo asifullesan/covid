@@ -10,7 +10,7 @@ const Streaming = () => {
         <>
             <NavSection />
          
-          <a href="/">  <button  className='logOb mt-5'>STOP STREAMING</button></a>
+          <a href="/home">  <button  className='logOb mt-5'>STOP STREAMING</button></a>
         </>
     );
 };

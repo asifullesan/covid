@@ -6,6 +6,8 @@ import Contact from './Component/Contact/Contact';
 import Dashboard from './Component/Dashboard/Dashboard/Dashboard';
 import Streaming from './Component/Streaming/Streaming';
 import Admin from './Component/Admin/Dashboard/Dashboard';
+import Login from './Component/Login/Login';
+import Register from './Component/Register/Register';
 
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
+            <Login />
+          </Route>
+          <Route  path="/home">
             <Home />
           </Route>
           <Route path="/contact">
@@ -28,6 +33,9 @@ function App() {
           </Route>
           <Route path="/streaming">
             <Streaming />
+          </Route>
+          <Route path="/register">
+            <Register />
           </Route>
 
         </Switch>

@@ -47,9 +47,7 @@ function Dashboard(props) {
 
             <List className='tool'>
                 <div className='nav-bg'>
-                    <ListItem >
-                        <Link className='li-d' to="/">Go-To-Home</Link>
-                    </ListItem>
+                  
                     <ListItem >
                         <Link className='li-d mt-2' to={`${url}/dashboard-home`}>Dashboard</Link>
                     </ListItem>
@@ -59,7 +57,9 @@ function Dashboard(props) {
                     <ListItem >
                         <Link className='li-d mt-2' to={`${url}/chat`}>Chat</Link>
                     </ListItem>
-
+                    <ListItem >
+                        <Link className='li-d' to="/">Logout</Link>
+                    </ListItem>
 
 
                 </div>

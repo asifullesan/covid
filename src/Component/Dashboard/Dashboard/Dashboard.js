@@ -47,7 +47,7 @@ function Dashboard(props) {
             <List className='tool'>
                 <div className='nav-bg'>
                     <ListItem >
-                        <Link className='li-d' to="/">Go-To-Home</Link>
+                        <Link className='li-d' to="/home">Go-To-Home</Link>
                     </ListItem>
                     <ListItem >
                         <Link className='li-d mt-2' to={`${url}/dashboard-home`}>Dashboard</Link>
